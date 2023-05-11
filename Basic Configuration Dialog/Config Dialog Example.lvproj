@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -116,6 +118,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{B42523C6-4473-4AB2-9756-7869591FF659}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{FB1DC457-3B67-4C00-B3E2-71D5A2A05179}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CB64FDB5-F660-475F-8296-2BF7FF1562B3}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Config Dialog</Property>
@@ -158,7 +161,7 @@
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Config Dialog</Property>
 				<Property Name="TgtF_internalName" Type="Str">Config Dialog</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright c 2013 </Property>
 				<Property Name="TgtF_productName" Type="Str">Config Dialog</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FC74E172-8FFD-497A-A448-D665B1871AF0}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Config Dialog.exe</Property>
